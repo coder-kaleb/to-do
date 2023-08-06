@@ -1,6 +1,5 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.querySelector(".list-container");
-console.log(listContainer);
 function addTask() {
   if (inputBox.value === "") {
     alert("You must write something ✏...");
